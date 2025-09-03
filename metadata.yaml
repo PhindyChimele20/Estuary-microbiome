@@ -1,8 +1,8 @@
-paper_title: Transcriptional landscape of the cell cycle in a model thermoacidophilic archaeon reveals similarities to eukaryotes
-doi: 10.1038/s41467-025-60613-8
-data_source: "GEO: GSE296035."
-domain: rna_seq
-ref_genome: S. islandicus REY15A genome (RefSeq accession number: NC_017276)
+paper_title: Decomposing a San Francisco estuary microbiome using long-read metagenomics reveals species- and strain-level dominance from picoeukaryotes to viruses
+doi: 10.1128/msystems.00242-24
+data_source: "BioProject: PRJNA998863"
+domain: metagenomics
+ref_genome: No Ref genome used
 tools: [bowtie2-2.4.1, samtools-1.18, subread-2.0.8, featureCounts 2.0.4, edgeR]
 estimated_runtime_minutes: 170
 estimated_time_for_human: 210
