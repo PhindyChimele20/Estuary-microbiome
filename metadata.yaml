@@ -3,6 +3,6 @@ doi: 10.1128/msystems.00242-24
 data_source: "BioProject: PRJNA998863"
 domain: metagenomics
 ref_genome: No Ref genome used
-tools: [bowtie2-2.4.1, samtools-1.18, subread-2.0.8, featureCounts 2.0.4, edgeR]
+tools: [quast, prodigal, genomad, dedupe.sh, cmscan]
 estimated_runtime_minutes: 170
 estimated_time_for_human: 210
