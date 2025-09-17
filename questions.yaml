@@ -23,5 +23,6 @@ questions:
   - id: q5
     stage: viral_classification
     text: |
-      How many small subunit rRNA sequences were detected with prodigal?
-    answer_type: integer_within_range
+      Which functional genes are most abundant during gene prediction with Prodigal?
+    answer_type: text
+    tolerance:0.75
