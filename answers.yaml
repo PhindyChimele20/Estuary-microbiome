@@ -1,6 +1,6 @@
 answers:
-  q1: 948090524
-  q2: 194182
-  q3: The sample is diverse and short reads lack the length to span the genome
-  q4: 244
-  q5: 467
+  q1: 948090524 with 0.5 tolerance
+  q2: 194182 with 0.5 tolerance
+  q3: 320421 with 0.65 tolerance
+  q4: 244 with 0.75 tolerance
+  q5: 467 with 5% tolerance
