@@ -1,6 +1,6 @@
 questions:
   - id: q1
-    stage: quality_control
+    stage: assembly_length
     text: |
       How large was the illumina assembly
     answer_type: integer_within_range
@@ -12,14 +12,15 @@ questions:
   - id: q3
     stage: quality_control
     text: |
-      Why is the N50 value in this assembly?
+      What is the N50 value in this assembly?
     answer_type: text
     tolerance: 0.5
   - id: q4
-    stage: contig_classification
+    stage: SSU_detection
     text: |
-      How many plasmids were detected with genomad?
+      How many SSUs were detected by Prodical?
     answer_type: integer_within_range
+    tolerance:0.75
   - id: q5
     stage: viral_classification
     text: |
