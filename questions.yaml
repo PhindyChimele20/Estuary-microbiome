@@ -16,10 +16,10 @@ questions:
     answer_type: text
     tolerance: 0.5
   - id: q4
-    stage: SSU_detection
+    stage: Bbmap_dedupe
     text: |
-      How many SSUs were detected?
-    answer_type: integer_within_range
+      Using bbmap (dedupe) what percentage of bases remained after filtering?
+    answer_type: numeric_percent
     tolerance:0.75
   - id: q5
     stage: viral_classification
