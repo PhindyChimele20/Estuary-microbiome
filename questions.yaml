@@ -18,7 +18,7 @@ questions:
   - id: q4
     stage: SSU_detection
     text: |
-      How many SSUs were detected by Prodical?
+      How many SSUs were detected?
     answer_type: integer_within_range
     tolerance:0.75
   - id: q5
