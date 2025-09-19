@@ -56,17 +56,11 @@ prodigal -i illumina_contigs.fasta.gz -o illumina_contigs.gff -a illumina_protei
 ### Step 3 – Plasmid and virus classification 
 
 **Purpose:** the pipeline classifies contigs as mobile genetic elements (i.e., plasmids and viruses) and to assign viral taxonomy
-**Tools:** 'geNomad', 'dedupe', 'cmscan'
+**Tools:** 'cmscan'
 **Inputs:** fasta.gz
 **Outputs:** genomad.output, .fna, contigs.cmscan
 **Command:**
 ```bash
-genomad end-to-end illumina_contigs.fasta.gz illumina_contigs_genomad.ouput /home/databases/genomad/genomad_db  -t 12
-
-dedupe.sh in=illumina_contigs_genomad.output/illumina_contigs_summary/illumina_contigs_virus.fna \
-          out=illumina_contigs_virus_deduped.fna \
-          minidentity=95
-
 cmscan --rfam --cut_ga --nohmmonly --tblout illumina_contigs.tblout --fmt 2 --clanin Rfam.clanin Rfam.cm illumina_contigs.fasta.gz > illumina_contigs.cmscan
 
 ```
