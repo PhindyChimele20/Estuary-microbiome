@@ -16,9 +16,9 @@ questions:
     answer_type: text
     tolerance: 0.5
   - id: q4
-    stage: Bbmap_dedupe
+    stage: cmscan
     text: |
-      Using bbmap (dedupe) what percentage of bases remained after filtering?
+      How many SSUs were detected?
     answer_type: numeric_percent
     tolerance:0.75
   - id: q5
